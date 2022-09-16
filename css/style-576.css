@@ -1,0 +1,173 @@
+@import url("https://kit.fontawesome.com/5b8a026b90.js");
+@import url("style.css");
+/*headline*/
+@media (max-width:576px) {
+
+    .headline-quest{
+        height: 40vh;
+        /*padding:0 60px ;*/
+        position: relative;
+        padding: 0;
+
+    }
+
+    .headline-quest-content{
+        position: absolute;
+        bottom:50px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        font-size: 2.4rem;
+        text-align: center;
+        
+    }
+
+    .headline-quest-content__text{
+        display: inline-block;
+        font-size: 1.6rem;
+        margin: 0;
+    }
+
+    .headline-quest-content__text-gray{
+        font-size: 1.6rem;
+    }
+
+    .headline-quest-content__text-last{
+        font-size: 16px;
+        margin-top: 12px;
+        margin-bottom: 10px;
+    }
+
+    .headline-quest-content h2{
+        margin: 0;
+        margin-bottom: 18px;
+        font-size: 2.4rem;
+        font-weight: 400;
+    }
+
+    .headline-quest-content button{
+        display: none;
+    }
+}
+
+/*pruducts*/
+
+@media (max-width:576px) {
+    .products-list__item{
+        width: 40vw;
+    }
+}
+
+/*watch*/
+@media (max-width:576px) {
+
+    .watch{
+        padding: 0;
+        width: 100%;
+        margin: 0;
+
+    }
+
+
+    .second-title{
+        font-size: 18px;
+    }
+
+    .watch-list{
+        text-align: left;
+    }
+
+    .watch-list__item{
+        width: 70vw;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .watch-context ul{
+        padding-left : 16px;
+    }
+
+}
+
+/*tv*/
+
+@media (max-width:576px) {
+    .tv{
+        margin-bottom: 35px;
+    }
+
+    .tv-list{
+        margin:  auto 25px;
+    }
+
+    .tv-list .tv-list__item{
+        padding: 10px;
+        margin:3px;
+    }
+
+}
+
+/*wrapper*/
+@media (max-width:576px) {
+    .wrapper-img{
+        height: 40vh;
+    }
+
+    .wrapper-text{
+        padding: 15px;
+    }
+
+    .wrapper-text button{
+        display: none;
+    }
+    
+}
+
+@media (max-width:992px) and (min-width:768px){
+    
+    
+}
+
+/*footer*/
+
+@media (max-width:576px) {
+
+    footer{
+        display: inline-block;
+        position: relative;
+        bottom: 0;
+        width: 100vw;
+    }
+
+    .footer-items{
+        border-top: 1px solid #7b8085;
+        margin: 10px auto ;
+        list-style: none;
+    }
+
+    .footer-item{
+        position: relative;
+        font-size: 1.4rem;
+        margin : 10px 0;
+        display: inline-block;
+        padding: 0;
+        border: none;
+        width: 40vw;
+    }
+
+    .ph-store{
+        display: none;
+    }
+
+    .footer-item a{
+        position: relative;
+        text-decoration: none;
+        transition: all .2s;
+    }
+
+    .footer-item i{
+        padding-right: 5px;
+        font-size: 1.7rem;
+    }
+
+}

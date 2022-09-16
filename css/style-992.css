@@ -1,0 +1,107 @@
+@import url("style.css");
+@import url("style-576.css");
+@import url("style-768.css");
+
+/*headline*/
+@media (max-width:992px) and (min-width:768px){
+
+    .headline-quest{
+        height: 50vh;
+        /*padding:0 60px ;*/
+        position: relative;
+        padding: 0;
+
+    }
+
+    .headline-quest-content{
+        position: absolute;
+        bottom: 15rem;
+        left: 2rem;
+    }
+}
+
+/*pruducts*/
+@media (max-width:992px) and (min-width:768px) {
+    .products-list__item{
+        width: 40vw;
+    }
+}
+
+/*watch*/
+
+@media (max-width:992px) and (min-width:768px){
+    .watch{
+        padding: 0 20px;
+        width: 100%;
+        margin-bottom: 75px;
+        
+    }
+
+    .watch-list__item{
+        font-size: 1.8rem;
+        display: inline-block;
+        width: 24%;
+        line-height: 2rem;
+        border-left: 5px solid #1890ff;
+    }
+
+    .watch-context ul{
+        padding:0;
+    }
+
+    .watch-context li{
+        padding:0;
+        padding-left: 10px;
+        margin: 0;
+        margin-right: 5px;
+    }
+
+}
+
+/*tv*/
+
+@media (max-width:992px) and (min-width:768px){
+
+    .tv{
+        margin-bottom: 35px;
+    }
+
+    .tv-list{
+        margin:  auto 25px;
+    }
+
+    .tv-list .tv-list__item{
+        padding: 25px;
+        margin:3px;
+    }
+
+}
+
+/*wrapper*/
+
+@media (max-width:992px) and (min-width:876px){
+
+    .wrapper-img{
+        height: 60vh;
+        background-size: cover;
+    }
+
+    .wrapper-text{
+        padding: 15px;
+    }
+
+    .wrapper-text button{
+        display: none;
+    }
+    
+}
+
+/*footer*/
+
+@media (max-width:992px) and (min-width:790px){
+
+    .footer-item a{
+        font-size: 12px;
+    }
+
+}

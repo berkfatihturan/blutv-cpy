@@ -1,0 +1,466 @@
+@import url("https://kit.fontawesome.com/5b8a026b90.js");
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vw;
+    font-size: 62.5% /*10px*/;
+    transition: all 1s;
+}
+
+body{
+    font-size: 62.5% /*10px*/;
+    width: 100vw;
+    background-color: rgb(8,19,41);
+    /*height: 1900px;*/
+    margin: 0;
+    font-family: Work Sans,sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/*header*/
+.main-header{
+    width: 100vw;
+    height: 54px;
+    padding: 14px 35px;
+}
+
+.main-nav{
+    display: inline-block;
+    width: calc(100% - 12rem);
+    text-align: right;
+}
+
+.main-nav__item{
+    margin: 0;
+    display: inline-block;
+    font-size: 1.4rem;
+    position: relative;
+    top:-10px;
+}
+
+.main-nav__items{
+    padding: 0;
+    margin:0;
+    list-style:none; 
+}
+
+
+.main-nav__item a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.main-nav__logo{
+    display: inline-block;
+}
+
+/* main*/
+main{
+    min-height: calc(100vh - 60px);
+}
+
+.second-title{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+button{
+    cursor:pointer;
+}
+
+/*fo rmobil*/
+
+@media (min-width:876px) {
+
+    .formobile{
+        display: none;
+    }
+}
+
+/*register*/
+
+.register{
+    width: 100vw;
+    height: 112px;
+    background-image: linear-gradient(293.46deg,#0E1844 0%,#273576 98.45%);
+    padding: 22px 35px 5px 35px;
+}
+
+@media (max-width:768px) {
+
+    .register{
+        display: none;
+    }
+}
+
+
+.register-text{
+    float: left;
+    display:block;
+    color: white;
+    width: 15%;
+    font-size: 18px;
+}
+
+@media (max-width:1079px) {
+    .register-text{
+        display: none;
+    }
+}
+
+.register .singup-form{
+    float: left;
+    width: 86rem;
+    text-align: left;
+}
+
+.singup-form label,
+.singup-form label a{
+    font-size: 14px;
+    color: white;
+}
+
+.singup-form input[type="text"],
+.singup-form input[type="email"],
+.singup-form input[type="password"],
+.singup-form button{
+    height: 4.5rem;
+    width: 22.6rem;
+    margin-right: 10px;
+    border-radius: 2px;
+    border:none;
+}
+
+.singup-form button{
+    width: 13.2rem;
+    background-color: #56a4ff;
+    color: white;
+}
+
+@media (max-width:877px) {
+
+
+    .register-button-phone button{
+        position: fixed;
+        bottom: 10px;
+        left:5%;
+        width: 90%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+    }
+}
+
+.agree-terms input[type="checkbox"]{
+    cursor: pointer;
+    transition: all 3s;
+}
+
+.agree-terms{
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.social-login{
+    float: left;
+    color: white;
+    position: relative;
+}
+
+@media (max-width:1350px) {
+    .social-login{
+        display: none;
+    }
+}
+
+.social-login-text{
+    position: relative;
+    top:-10px;
+    display: inline-block;
+    font-size: 1.3rem;
+    margin-right: 12px;
+    vertical-align: text-top;
+   
+}
+
+.social-login i{
+    width: 45px;
+    padding: 7.5px;
+    list-style: none;
+    background-color: white;
+    color: black;
+    font-size: 3rem;
+    margin-right: 12px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/*headline*/
+.headline-quest{
+    /*background-color: linear-gradient(180deg,rgba(8,19,41,0) 20%,#081329 90%),url(https://i.cnnturk.com/i/cnnturk/75/740x416/61cb9c3f79da3e1ae025be50.jpg);
+    background: url(https://i.cnnturk.com/i/cnnturk/75/1200x675/61cb9c3f79da3e1ae025be50) ;
+    background-size: cover;
+    background-position: bottom right;
+    background-color:#081329;
+    */
+    height: 70vh;
+    width: 100vw;
+    background: rgb(35,37,48);
+    background: linear-gradient(to bottom, rgba(35,37,48,0.25),rgb(8,19,41)),
+        url('https://blutv-images.mncdn.com/q/t/i/bluv2/75/1920x720/61c9b47d866ac31664bc146c?w=1920&q=75');
+    background-size: cover;
+    background-position: center;
+    padding:0 60px ;
+    position: relative;
+}
+
+.headline-quest-content{
+    position: absolute;
+    bottom: 25rem;
+    color: white;
+    font-size: 1.7rem;
+    
+}
+
+.headline-quest-content__text{
+    font-size: 2rem;
+    width: 60%;
+    margin-bottom: 0;
+}
+
+.headline-quest-content__text-gray{
+    margin: 0%;
+    color: gray;
+    opacity: .9;
+    font-size: 16px;
+}
+
+.headline-quest-content__text-last{
+    margin-top: 48px;
+    margin-bottom: 10px;
+}
+
+.headline-quest-content h2{
+    margin: 0;
+    margin-bottom: 18px;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.headline-quest-content button{
+    height: 4.5rem;
+    width: 27.2rem;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/*pruduct*/
+
+.products{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.products-list{
+    margin:  auto 10px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.products-list__item{
+    display: inline-block;
+    border: 3px solid #2e2f41;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+/*watch*/
+
+.watch{
+    padding: 0 60px;
+    width: 100%;
+}
+
+.watch-img img{
+    text-align: center;
+    width: 100%;
+}
+
+.watch-list{
+    color: white;
+    text-align: center;
+}
+
+.watch-list__item{
+    text-align: left;
+    font-size: 1.8rem;
+    display: inline-block;
+    width: 15%;
+    margin-right: 5%;
+    padding-left: 10px;
+    line-height: 2.5rem;
+    border-left: 5px solid #1890ff;
+}
+
+/*tv*/
+
+.tv{
+    margin-top: 4vh;
+    margin-bottom: 100px;
+}
+
+.tv-list{
+    margin:  auto 100px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.tv-list .tv-list__item{
+    display: inline-block;
+    color: white;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin:5px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    cursor:pointer;
+    
+}
+
+/*wraper*/
+.wrapper{
+    width: 100vw;
+    height: 60rem;
+    margin-bottom: 100px;
+}
+
+.wrapper-img{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(270deg,#081329 0%,rgba(8,19,41,0.54) 15.8%,rgba(31,29,37,0) 91.53%,#081329 100%),
+        url("https://blutv-images.mncdn.com/q/t/i/bluv2/75/808x580/61c9b287866ac31664bc140d?w=808&q=75") no-repeat;
+
+    background-size: cover;
+}
+
+.wrapper-text{
+    float: left;
+    width: 50%;
+    color: white;
+    font-size: 18px;
+    padding: 100px;
+    padding-top: 30px;
+}
+
+@media (max-width:1000px) {
+
+    .wrapper-img{
+        background: linear-gradient(0deg,#081329 0%,rgba(8,19,41,0.54) 15.8%,rgba(31,29,37,0) 91.53%,#081329 100%),
+            url("https://blutv-images.mncdn.com/q/t/i/bluv2/75/808x580/61c9b287866ac31664bc140d?w=808&q=75") no-repeat;
+       width: 100%;
+       background-position: center;
+    }
+
+    .wrapper-text{
+        width: 100%;
+    }
+
+    .wrapper-text button{
+        display: none;
+    }
+}
+
+.wrapper-text p{
+    margin-bottom: 40px;
+}
+
+.wrapper-text img{
+    position: relative;
+    top: 3px;
+    margin-right: 6px;
+}
+
+.wrapper-text button{
+    font-size: 18px;
+    width: 288px;
+    padding: 15px 0;
+    border:none;
+    border-radius: 5px;
+}
+
+/*footer*/
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #2e2f41;
+    
+}
+
+.footer-items{
+    margin: 0;
+    list-style: none;
+}
+
+.footer-item{
+    position: relative;
+    font-size: 1.4rem;
+    margin : 10px 0;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 5px;
+    border-right: 1px solid #b2b4b6; 
+}
+
+.footer-item a{
+    position: relative;
+    color: #b2b4b6;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.footer-item a:hover{
+    color: white;
+}
+
+.footer-item i{
+    color: white;
+    padding-right: 5px;
+    font-size: 1.7rem;
+}
+
+.footer-item img{
+    position: relative;
+    height:19px;
+    width: 20px; 
+    padding-right:5px;
+}
+
+
+
+
+
+/*******/
+
+

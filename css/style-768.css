@@ -1,0 +1,148 @@
+@import url("style.css");
+@import url("style-576.css");
+
+/*headline*/
+@media (max-width:768px) and (min-width:576px){
+
+    .headline-quest{
+        height: 50vh;
+        /*padding:0 60px ;*/
+        position: relative;
+        padding: 0;
+
+    }
+
+    .headline-quest-content{
+        position: absolute;
+        bottom: 15rem;
+        left: 2rem;
+    }
+
+    .headline-quest-content__text-last{
+        margin: 0;
+        margin-top: 10px;
+    }
+    
+    .headline-quest-content button{
+        display: none;
+    }
+
+}
+
+/*pruducts*/
+
+@media (max-width:768px) and (min-width:576px) {
+    .products-list__item{
+        width: 40vw;
+    }
+}
+
+/*watch*/
+@media (max-width:768px) and (min-width:576px){
+
+    .watch{
+        padding: 0 20px;
+        width: 100%;
+        margin-bottom: 75px;
+    }
+
+    .watch-list__item{
+        font-size: 1.8rem;
+        display: inline-block;
+        width: 24%;
+        line-height: 2rem;
+        border-left: 5px solid #1890ff;
+    }
+
+    .watch-context ul{
+        padding:0;
+    }
+
+    .watch-context li{
+        padding:0;
+        padding-left: 10px;
+        margin: 0;
+    }
+
+}
+
+/*tv*/
+
+@media (max-width:768px) and (min-width:576px){
+    .tv{
+        margin-bottom: 35px;
+    }
+
+    .tv-list{
+        margin:  auto 25px;
+    }
+
+    .tv-list .tv-list__item{
+        padding: 10px;
+        margin:3px;
+    }
+
+}
+
+/*wrapper*/
+
+@media (max-width:768px) and (min-width:576px) {
+    .wrapper-img{
+        height: 40vh;
+    }
+
+    .wrapper-text{
+        padding: 15px;
+    }
+
+    .wrapper-text button{
+        display: none;
+    }
+    
+}
+
+/*footer*/
+
+@media (max-width:876px) and (min-width:576px) {
+
+    footer{
+        display: inline-block;
+        position: relative;
+        bottom: 0;
+        width: 100vw;
+    }
+
+    .footer-items{
+        border-top: 1px solid #7b8085;
+        margin: 10px auto ;
+        list-style: none;
+    }
+
+    .footer-item{
+        position: relative;
+        font-size: 1.4rem;
+        margin : 10px 0;
+        display: inline-block;
+        padding: 0;
+        border: none;
+        width: 40vw;
+    }
+
+    .ph-store{
+        display: none;
+    }
+
+    .footer-item a{
+        position: relative;
+        text-decoration: none;
+        transition: all .2s;
+    }
+
+    .footer-item i{
+        padding-right: 5px;
+        font-size: 1.7rem;
+    }
+
+}
+
+

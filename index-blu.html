@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5b8a026b90.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-576.css">
+    <link rel="stylesheet" href="css/style-768.css">
+    <link rel="stylesheet" href="css/style-992.css">
+    <link rel="stylesheet" href="form.php">
+    
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <a href="/" class="main-nav__logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77 26" class="icon" data-testid="icon-blutv-test" style="width: auto; height: 26px;">
+                <path d="M53.723.932c.29-.707 1.158-1.109 1.881-.836.547.21.964.756.964 1.35v3.971h3.955c.338-.016.691.049.948.29.225.177.354.434.45.69 2.026 5 4.051 10.016 6.077 15.015 1.945-4.839 3.89-9.677 5.82-14.516.144-.337.256-.707.546-.964.578-.515 1.575-.483 2.122.08.385.37.53.965.321 1.463-2.234 5.417-4.469 10.819-6.703 16.236-.434 1.045-1.688 1.591-2.765 1.286a2.252 2.252 0 0 1-1.27-.932c-.16-.258-.273-.547-.386-.82-2.09-5.064-4.163-10.128-6.253-15.175h-2.845v11.96c0 .884.385 1.929 1.302 2.218v2.717c-1.093.016-2.267-.241-3.07-1.045-.58-.563-.917-1.35-1.062-2.138-.144-.724-.112-1.463-.112-2.202V8.07h-2.106c-.305 0-.627-.113-.852-.322-.53-.482-.595-1.414-.08-1.929a1.21 1.21 0 0 1 .932-.37h2.106V1.77c-.016-.29-.032-.58.08-.837zM.113.241h4.935v6.543a9.755 9.755 0 0 1 5.915-1.206c2.428.257 4.71 1.495 6.286 3.344 1.35 1.575 2.186 3.584 2.314 5.658a9.762 9.762 0 0 1-6.622 9.919 9.845 9.845 0 0 1-6.27-.017 9.768 9.768 0 0 1-5.256-4.324 9.681 9.681 0 0 1-1.319-4.806C.113 10.304.113 5.272.113.242zm9.162 10.24a4.808 4.808 0 0 0-3.15 1.752 4.85 4.85 0 0 0-1.093 3.038 4.734 4.734 0 0 0 1.028 3.006 4.832 4.832 0 0 0 2.653 1.72 4.818 4.818 0 0 0 3.247-.337 4.799 4.799 0 0 0 2.379-2.524 4.93 4.93 0 0 0 .032-3.617 4.913 4.913 0 0 0-2.041-2.411 4.907 4.907 0 0 0-3.055-.627zM21.621.241c1.64 0 3.28 0 4.903.016V13.31c0 .949 0 1.913.048 2.862.129 1.752 1.495 3.424 3.28 3.68v4.936c-1.817-.113-3.52-.916-4.936-2.026-1.157-.9-2.105-2.09-2.62-3.488-.578-1.511-.659-3.167-.675-4.774V.24zm9.661 5.129c1.64 0 3.28 0 4.903.015 0 3.2-.016 6.382.016 9.581.032.675-.016 1.382.193 2.042.338 1.093 1.093 2.073 2.138 2.572 1.029.498 2.283.434 3.28-.113a3.861 3.861 0 0 0 1.8-2.042c.354-.852.305-1.784.337-2.668V5.401c1.592 0 3.167 0 4.759-.016v6.35c-.016 1.72.064 3.456-.129 5.16-.096.82-.209 1.64-.498 2.411-.482 1.318-1.383 2.476-2.46 3.376-.916.756-1.945 1.383-3.086 1.736a9.231 9.231 0 0 1-4.083.241c-1.35-.225-2.572-.868-3.665-1.672-1.19-.884-2.187-2.041-2.765-3.424-.692-1.655-.756-3.488-.772-5.272.032-2.974.032-5.948.032-8.922z" 
+                    fill="white">
+                </path>
+            </svg>
+        </a>
+        <div class="main-nav">
+            <ul class="main-nav__item">
+                <li class="main-nav__items">
+                    <a href="#">Üye Girisi</a>
+                </li>
+            </ul>
+                
+        </div>
+    </header>
+
+    <main>
+
+        <section class="register">
+            <div class="register-text">
+                İlk 7 Gün <br> Ücretsiz Deneme <br> Yıllık üyelik ayda ₺15.90
+            </div>
+
+            <form action="form.php" class="singup-form" method="post">
+
+                <input type="text" placeholder="Ad Soyad" id="fullname" name="fullname">
+
+                <input type="email" placeholder="E-posta Adresiniz" id="email" name="email">
+
+                <input type="password" placeholder="Parola" id="password" name="password">
+
+                <button type="submit" class="btn btn-primary">Ücretsiz Dene</button>
+
+                <div class="agree-terms">
+                    <input type="checkbox" class="agree-term" name="agree-terms">
+                    <label for="agree-terms">  
+                        <a href="">İletişim izinlerini</a> ve <a href="">üyelik sözleşmesini</a>
+                        okuduğunuzu ve kabul ettiğinizi onaylıyorsunuz.
+                    </label>
+                </div>
+                
+            </form>
+
+            <div class="social-login">
+                <div class="social-login-text">ya da</div>
+                
+                <i class="fab fa-facebook-square" style="color:dodgerblue;"></i>
+                <i class="fab fa-google"></i>
+                <i class="fab fa-apple"></i>  
+            </div>
+
+        </section>
+
+        <section class="headline-quest">
+            <div class="headline-quest-content">
+                <h2>Türkiye'nin İnternet Televizyonu</h2>
+                <p class="headline-quest-content__text">Yerli ve yabancı 10.000 saatten fazla içerik ayda sadece ₺15.90</p>
+                <p class="headline-quest-content__text-gray">*Yıllık aboneliklerde</p>
+                <p class="headline-quest-content__text-last">İstediğin zaman iptal et.</p>
+                <button>Ucretsiz Dene</button>
+            </div>
+        </section>
+
+        <section class="products">
+            <h2 class="second-title">BluTv Özel Yapımları</h2>
+
+            <!--<iframe src="swiper-deneme.html" frameborder="0"  style="overflow:hidden"></iframe>-->
+
+            <div class="products-list">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/408x612/617ef44f866ac3272090c99e?w=408&q=75" alt="" class="products-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/408x612/6111497c866ac30acc27b426?w=408&q=75" alt="" class="products-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/408x612/6172bdf4866ac3307c1e0faf?w=408&q=75" alt="" class="products-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/408x612/6064687d866ac30df4e519cf?w=408&q=75" alt="" class="products-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/408x612/60e71f0a866ac31a703de889?w=408&q=75" alt="" class="products-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/408x612/60e08f45866ac31174cda7f2?w=408&q=75" alt="" class="products-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/408x612/60d5dd8f866ac32a0838933a?w=408&q=75" alt="" class="products-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/408x612/6058e3b2866ac321f83ecb6f?w=408&q=75" alt="" class="products-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/408x612/6110ce70866ac30acc27b07a?w=408&q=75" alt="" class="products-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/408x612/5e747627866ac319e86250c4?w=408&q=75" alt="" class="products-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/408x612/60d61b8a866ac31090805161?w=408&q=75" alt="" class="products-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/408x612/6110ce85866ac30acc27b07f?w=408&q=75" alt="" class="products-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/408x612/6110cebc866ac30acc27b085?w=408&q=75" alt="" class="products-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/408x612/600afb7e866ac310e0416242?w=408&q=75" alt="" class="products-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/408x612/618114ef866ac307b87c872e?w=408&q=75" alt="" class="products-list__item">
+            </div>
+
+        </section>
+
+        <section class="watch">
+            <h2 class="second-title">Dilediğin Zaman, Dilediğin Yerden İzle</h2>
+            <div class="watch-img">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/966x414/61f7edcb866ac32ef0310a6e?w=966&q=75" alt="">
+            </div>
+
+            <div class="watch-context">
+                <ul class="watch-list">
+                    <li class="watch-list__item">10.000 saatten fazla film, dizi ve daha fazlası.</li>
+                    <li class="watch-list__item">Dizüstü ve masaüstü tüm bilgisayarlarda</li>
+                    <li class="watch-list__item">Akıllı televizyonlarda ve Apple TV’de</li>
+                    <li class="watch-list__item">Tüm telefon ve tabletlerde, dilediğin içeriği indir & izle!</li>
+                </ul>
+            </div>
+
+
+        </section>
+        
+        <section class="tv">
+            <h2 class="second-title">En Sevilen Canlı Yayın Kanalları</h2>
+            <div class="tv-list">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/61fb77d0866ac32bb84cc725?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/61fb77f8866ac32bb84cc72c?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/61fb7487866ac32c40ef3252?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/61fb7531866ac32c40ef3256?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/61fb7578866ac32bb84cc70f?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/5dc2bd27866ac331e0feb1fe?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/5dc2be53866ac331e0feb20e?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/5dc2be70866ac31da06187b1?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/5dcd4eec866ac302bcb1c34b?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/55f178eb058d0717b0467456?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/6156eaa5866ac30d10beb9f1?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/60951e98866ac310f452dc93?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/6112acf0866ac320a437c0d1?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/60995084866ac3099473a292?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/604a04d1866ac32574736eef?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/604a04ef866ac32574736ef6?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/616d44fd866ac31b90687cf0?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/616d4509866ac31b90687cf3?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/616d44e3866ac31b90687cea?w=80&q=75" alt="" class="tv-list__item">
+                <img src="https://blutv-images.mncdn.com/q/t/i/bluv2/75/80x80/616d3d86866ac31b90687ce3?w=80&q=75" alt="" class="tv-list__item">
+                <!--<img src="" alt="" class="tv-list__item">-->
+            </div>
+        </section>
+
+        <section class="wrapper">
+            <div class="wrapper-img"></div>
+            <div class="wrapper-text">
+                <p style="font-size: 24px; font-weight: 600;">BluTV yıllık aboneliklerde ayda sadece ₺15.90</p>
+                <p style="font-size: 20px;">10.000 saatten fazla film, dizi ve daha fazlası. Tek tuşla iptal edebilme kolaylığı.</p>
+                <p><img src="https://blutv-objects.mncdn.com/static/assets/svg/icon_crown.svg?v=3.1.0" alt="">Blutv Özel Yapım Diziler ve Programlar</p>
+                <p><img src="https://blutv-objects.mncdn.com/static/assets/svg/icon_play.svg?v=3.1.0" alt="">Yerli ve Yabancı En Çok Sevilen Dizi ve Filmler</p>
+                <p><img src="https://blutv-objects.mncdn.com/static/assets/svg/icon_diamond.svg?v=3.1.0" alt="">Altyazı & Dublaj ve HD kalitesiyle</p>
+
+                <button>Ücretsiz Dene</button>
+            </div>
+        </section>
+
+        <section class="formobile">
+            <div class="register-button-phone">
+                <button>Ücretsiz Dene</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <ul class="footer-items">
+            <li class="footer-item"><a href="">Kupon Kodu</a></li>
+            <li class="footer-item"><a href="">Gizlilik Politikası</a></li>
+            <li class="footer-item"><a href="">Çerez Politikası</a></li>
+            <li class="footer-item ph-store"><i class="fab fa-apple"></i><a href="">App Store</a> </li>
+            <li class="footer-item ph-store"><i class="fa-brands fa-google-play"></i><a href="">Google Play</a> </li>
+            <li class="footer-item ph-store"><img src="https://blutv-objects.mncdn.com/static/assets/svg/huawei-icon.svg?v=3.1.0"><a href="">Huawei AppGallery</a></li>
+            <li class="footer-item">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </li>
+            <li class="footer-item"><a href="#">Yardım Merkezi</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
+
